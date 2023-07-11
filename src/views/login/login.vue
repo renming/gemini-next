@@ -22,7 +22,7 @@
       <login-form></login-form>
     </div>
 
-    <div class="footer">
+<!--    <div class="footer">
       <a-row>
         <a-col :span="24">
           <div style="text-align: center">
@@ -57,7 +57,7 @@
           </div>
         </a-col>
       </a-row>
-    </div>
+    </div>-->
 
     <Sponsor ref="sponsor"></Sponsor>
 

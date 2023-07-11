@@ -1,5 +1,5 @@
 export default {
-  'query.banner.title': '欢迎使用Yearning查询系统',
+  'query.banner.title': '欢迎使用DBAMS查询系统',
   'query.banner.sub':
     '使用前请详细阅读以下注意事项，了解完毕后点击 进入按钮 进入查询页面',
   'query.banner.attion': '注意事项:',

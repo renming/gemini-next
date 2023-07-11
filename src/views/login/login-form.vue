@@ -1,7 +1,7 @@
 <template>
   <img src="../../assets/login/logo.png" width="350" />
   <br />
-  <a-form :model="loginForm">
+  <a-form :model="loginForm" class="login-form">
     <a-form-item>
       <a-input
         v-model:value="loginForm.username"
@@ -122,5 +122,9 @@
   .ant-btn.ant-btn-background-ghost {
     color: rgba(255, 255, 255, 0.85);
     border-color: rgba(255, 255, 255, 0.25);
+  }
+
+  .login-form {
+    margin-top: 10px;
   }
 </style>

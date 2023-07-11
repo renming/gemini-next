@@ -66,7 +66,7 @@
           </a-layout-content>
         </a-row>
 
-        <a-layout-footer :style="{ textAlign: 'center', width: '100%' }">
+<!--        <a-layout-footer :style="{ textAlign: 'center', width: '100%' }">
           <a-space>
             <span>{{ Copyright }}</span>
             <a href="https://next.yearning.io" target="_blank">帮助文档</a>
@@ -74,7 +74,7 @@
               >获取赞助版</a
             >
           </a-space>
-        </a-layout-footer>
+        </a-layout-footer>-->
       </a-layout>
     </a-layout>
     <a-drawer

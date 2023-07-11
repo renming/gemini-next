@@ -11,25 +11,25 @@ export default defineConfig({
   server: {
     proxy: {
       '/register': {
-        target: 'http://127.0.0.1:8000',
+        target: 'http://10.211.55.144:8000',
       },
       '/fetch': {
-        target: 'http://127.0.0.1:8000',
+        target: 'http://10.211.55.144:8000',
       },
       '/login': {
-        target: 'http://127.0.0.1:8000',
+        target: 'http://10.211.55.144:8000',
       },
       '/api': {
-        target: 'http://127.0.0.1:8000',
+        target: 'http://10.211.55.144:8000',
       },
       '/ldap': {
-        target: 'http://127.0.0.1:8000',
+        target: 'http://10.211.55.144:8000',
       },
       '/downlaod/*': {
-        target: 'http://127.0.0.1:8000',
+        target: 'http://10.211.55.144:8000',
       },
       '/oidc/state': {
-        target: 'http://127.0.0.1:8000',
+        target: 'http://10.211.55.144:8000',
       },
     },
   },
